@@ -1,9 +1,9 @@
 # News-Topic-Classification
 
-##Project Description
+# Project Description
 This project develops a Feedforward Neural Network for topic classification. The primary goals include implementing text processing methods, constructing the network, training with Stochastic Gradient Descent (SGD), and hyperparameter tuning. The dataset used is a subset of the AG News Corpus.
 
-#Implementation Details
+# Implementation Details
 1. Text Processing
 Tokenization: Transform raw text data into tokens.
 Stop Words Removal: Filter out common stop words.
@@ -35,13 +35,13 @@ Additional Hidden Layers: Extend the network by adding one or more hidden layers
 Analyze the effect on performance.
 Perform hyperparameter tuning with a subset of all possible combinations.
 
-#Results
+# Results
 The project includes a detailed analysis of the results, including error analysis and discussion of misclassifications.
 Code and Documentation
 The code is well-documented and commented, providing explanations for all choices made.
 Efficient solutions are implemented using Numpy arrays to ensure the notebook executes within a reasonable time frame on standard hardware.
 
-#Data
+# Data
 The dataset used is a subset of the AG News Corpus:
 train.csv: 2,400 news articles (800 per class) for training.
 dev.csv: 150 news articles (50 per class) for hyperparameter tuning.
@@ -49,5 +49,5 @@ test.csv: 900 news articles (300 per class) for testing.
 Hyperparameter Tuning and Results
 A variety of hyperparameter combinations were tested, and the results were plotted to show training and validation performance for each combination.
 
-#Conclusion
+# Conclusion
 The final model, including the use of pre-trained embeddings and additional hidden layers, showed significant improvements in performance. Detailed results and analysis are provided within the code and accompanying documentation.
